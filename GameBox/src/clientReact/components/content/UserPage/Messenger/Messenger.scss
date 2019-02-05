@@ -1,0 +1,20 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: Messanger.scss, Styles for messanger component
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+.Messenger{
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  .text_message_history{
+    width: auto;
+    height: 100px;
+    border: 1px solid grey;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+}

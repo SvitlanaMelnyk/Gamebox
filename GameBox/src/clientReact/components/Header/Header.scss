@@ -1,0 +1,104 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: Header.scss, Styles for header and authorization panel components
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+.Header {
+  .stickytop {
+    transform: translateY(0px);
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+  }
+
+  nav {
+    position: fixed;
+    transform: translateY(20px);
+    transition: transform .6s, width .6s;
+    border-radius: 5px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    background: rgba(248, 249, 250, 0.95);
+
+  }
+
+  .navbar {
+    padding: 2px !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+
+  .fa.fa-bars {
+    color: black;
+    margin-top: 5px;
+  }
+
+  li.nav-item .nav-link {
+    color: black;
+  }
+
+  a.nav-link.h5 {
+    tab-size: 20px;
+  }
+
+  #dropdownMenu i.fa.fa-user-plus {
+    color: #000000;
+    font-size: 23px;
+  }
+
+  //Search
+  .btnSearch {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+  }
+
+  .inputSearch {
+    display: none;
+    background-color: unset;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 22rem;
+  }
+
+  img.searchImg {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-right: 2rem;
+  }
+
+  .imgBasket {
+    margin-bottom: 8px;
+
+  }
+
+  //Cart
+  .basketNumber{
+    margin-bottom: -22px;
+    margin-left: 9px;
+    color: red;
+    font-weight: bold ;
+  }
+
+  //Mobile style
+  @media only screen and (min-width: 998px) {
+    //Cart
+    .imgBasket {
+      margin-left: 16px;
+    }
+    .basketNumber {
+      margin-left: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    //Search
+    .inputSearch {
+      width: 10rem;
+    }
+  }
+}

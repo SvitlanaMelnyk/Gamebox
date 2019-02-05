@@ -1,0 +1,23 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: SignUpPage.scss, Styles for sign up page component
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+.SignUp{
+  #sign {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .imgAvatar {
+    border: 1px solid black;
+    border-radius: unset;
+  }
+
+  .custom-file-label {
+    padding-right: 5rem;
+  }
+}

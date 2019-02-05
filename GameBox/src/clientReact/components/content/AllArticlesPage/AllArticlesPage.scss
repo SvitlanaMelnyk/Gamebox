@@ -1,0 +1,20 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: AllArticlesPage.scss, Styles for all articles page component
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+.AllBlogPage {
+  #article {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #article {
+      margin-top: 3rem;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: Articles.scss, Styles for all user articles component
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+.Articles {
+  .btnAddArticle {
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid black;
+    border-radius: unset;
+  }
+
+  .btnAddArticle:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  #yourArticle {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .linkArticle {
+    color: black;
+  }
+
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

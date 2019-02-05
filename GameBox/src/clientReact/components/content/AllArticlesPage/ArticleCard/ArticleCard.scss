@@ -1,0 +1,40 @@
+/**
+ * Theme: Web Project 2
+ * Description: Creating a gaming platform for exchange between players
+ * File: ArticleCard.scss, Styles for article's card- the part of all articles page component
+ * Authors: Oleg Smolovyk, Iana Kravchenko, Svitlana Melnyk
+ * Date: October 2018
+ */
+
+
+.ArticleCard {
+  .linkArticle {
+    color: black;
+  }
+
+  .cardBodyArticle {
+    -moz-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+
+  .cardBodyArticle:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+
+  .imageArticle {
+    width: 250px;
+    height: 150px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .imageArticle {
+      margin-bottom: 2rem;
+      width: 650px;
+      height: 250px;
+    }
+  }
+}
